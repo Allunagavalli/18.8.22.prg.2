@@ -1,0 +1,23 @@
+#include<studio.h>
+Int main ()
+{
+int i,n,flag,a[10];
+int num=a[0];
+printf("enter n");
+scanf+"%d",&n);
+printf("enter elements");
+for(i=0;i<n;i++)
+Scanf ("%d",&a[i];
+for(i=0;i<n;i++)
+{
+if(a[i]==num)
+flag=1;
+break;
+}
+if(flag=0)
+Printf("different");
+else
+printf("unique");
+return 0;
+}
+
